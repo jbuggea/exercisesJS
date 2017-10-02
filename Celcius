@@ -1,0 +1,7 @@
+<p>
+  <label>Celcius</label>
+  <input id="inputCelcius" type="number" placeholder="Celcius"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputFahrenheit"></span></p>
